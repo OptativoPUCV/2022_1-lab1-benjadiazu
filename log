@@ -444,3 +444,9 @@ vi., 11 de mar. de 2022 17:01:50:
  tests:  0|7
 total_score: 0/70
 20a533d
+vi., 11 de mar. de 2022 17:51:42: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|6
+total_score: 10/70
+69cb814
