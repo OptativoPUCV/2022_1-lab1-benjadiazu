@@ -615,3 +615,8 @@ exercises.c:64:16: error: assignment to expression with array type
       |                ^
 Compilation failed
 7279903
+sá., 12 de mar. de 2022 19:34:47: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+b71801d
