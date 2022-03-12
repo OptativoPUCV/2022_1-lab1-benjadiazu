@@ -770,3 +770,9 @@ exercises.c:80:26: error: initialization of 'Vector *' from incompatible pointer
 cc1.exe: all warnings being treated as errors
 Compilation failed
 0183001
+sá., 12 de mar. de 2022 20:06:55: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|5
+total_score: 20/70
+2b7b751
