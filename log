@@ -689,3 +689,13 @@ exercises.c:65:13: error: assignment to expression with array type
       |             ^
 Compilation failed
 3430b6d
+sá., 12 de mar. de 2022 19:55:21: 
+ exercises.c | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+In file included from test.c:5:
+exercises.c: In function 'crearPersona':
+exercises.c:64:30: error: expected expression before ']' token
+   64 |    strcpy(ptr->nombre,nombre[]);
+      |                              ^
+Compilation failed
+248958e
