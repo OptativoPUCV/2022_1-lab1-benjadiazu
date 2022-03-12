@@ -501,3 +501,22 @@ exercises.c:64:8: error: assignment to 'Persona *' from incompatible pointer typ
 cc1.exe: all warnings being treated as errors
 Compilation failed
 745f125
+sá., 12 de mar. de 2022 19:29:25: 
+ exercises.c | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+In file included from test.c:5:
+exercises.c: In function 'crearPersona':
+exercises.c:64:11: error: 'persona' is a pointer; did you mean to use '->'?
+   64 |    persona.nombre = nombre;
+      |           ^
+      |           ->
+exercises.c:65:11: error: 'persona' is a pointer; did you mean to use '->'?
+   65 |    persona.rut = rut;
+      |           ^
+      |           ->
+exercises.c:66:11: error: 'persona' is a pointer; did you mean to use '->'?
+   66 |    persona.edad = edad;
+      |           ^
+      |           ->
+Compilation failed
+af31393
