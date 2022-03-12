@@ -467,3 +467,9 @@ vi., 11 de mar. de 2022 17:52:18:
  tests:  1|6
 total_score: 10/70
 3c01787
+sá., 12 de mar. de 2022 12:53:05: 
+ exercises.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+ tests:  2|5
+total_score: 20/70
+43aaa11
