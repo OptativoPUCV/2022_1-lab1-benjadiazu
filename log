@@ -743,3 +743,8 @@ C:/TDM-GCC-64/x86_64-w64-mingw32/include/string.h:61:77: note: expected 'const c
 cc1.exe: all warnings being treated as errors
 Compilation failed
 ce8be91
+sá., 12 de mar. de 2022 19:56:39: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+982ab82
