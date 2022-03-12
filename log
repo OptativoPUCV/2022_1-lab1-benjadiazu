@@ -716,3 +716,13 @@ C:/TDM-GCC-64/x86_64-w64-mingw32/include/string.h:61:77: note: expected 'const c
 cc1.exe: all warnings being treated as errors
 Compilation failed
 aacdfe9
+sá., 12 de mar. de 2022 19:56:22: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function 'crearPersona':
+exercises.c:64:23: error: invalid type argument of unary '*' (have 'int')
+   64 |    strcpy(ptr->nombre,**nombre);
+      |                       ^~~~~~~~
+Compilation failed
+677ca50
