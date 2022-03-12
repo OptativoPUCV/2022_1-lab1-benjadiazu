@@ -843,3 +843,14 @@ sá., 12 de mar. de 2022 20:37:06:
  tests:  4|3
 total_score: 40/70
 ba2d3ac
+sá., 12 de mar. de 2022 20:37:38: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+test.c: In function 'crearPersona':
+exercises.c:65:20: error: 'individuo' is used uninitialized in this function [-Werror=uninitialized]
+   65 |    strcpy(individuo->nombre,nombre);
+      |           ~~~~~~~~~^~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+bc41f9d
