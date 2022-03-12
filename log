@@ -824,3 +824,16 @@ sá., 12 de mar. de 2022 20:31:19:
  tests:  3|4
 total_score: 30/70
 fdbdfd1
+sá., 12 de mar. de 2022 20:35:40: 
+ exercises.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function 'crearPersona':
+exercises.c:65:22: error: assignment to expression with array type
+   65 |    individuo->nombre = nombre;
+      |                      ^
+exercises.c:66:19: error: assignment to expression with array type
+   66 |    individuo->rut = rut;
+      |                   ^
+Compilation failed
+5cf2faf
