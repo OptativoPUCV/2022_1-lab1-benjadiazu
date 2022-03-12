@@ -854,3 +854,9 @@ exercises.c:65:20: error: 'individuo' is used uninitialized in this function [-W
 cc1.exe: all warnings being treated as errors
 Compilation failed
 bc41f9d
+sá., 12 de mar. de 2022 20:37:46: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|3
+total_score: 40/70
+21bd8e8
