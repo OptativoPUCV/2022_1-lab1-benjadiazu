@@ -889,3 +889,9 @@ sá., 12 de mar. de 2022 20:51:42:
  tests:  4|3
 total_score: 40/70
 897f80a
+sá., 12 de mar. de 2022 20:53:41: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  6|2
+total_score: 50/70
+a881c9c
