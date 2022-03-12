@@ -883,3 +883,9 @@ sá., 12 de mar. de 2022 20:49:31:
  1 file changed, 1 insertion(+)
  tests:  0|0
 8287798
+sá., 12 de mar. de 2022 20:51:42: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  4|3
+total_score: 40/70
+897f80a
