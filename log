@@ -671,3 +671,8 @@ exercises.c:65:17: error: assignment to 'char' from 'char *' makes integer from 
 cc1.exe: all warnings being treated as errors
 Compilation failed
 9db1698
+sá., 12 de mar. de 2022 19:52:18: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|0
+c2a6d83
