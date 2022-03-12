@@ -657,3 +657,17 @@ sá., 12 de mar. de 2022 19:46:40:
  tests:  2|5
 total_score: 20/70
 faa2dae
+sá., 12 de mar. de 2022 19:52:02: 
+ exercises.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function 'crearPersona':
+exercises.c:64:20: error: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Werror=int-conversion]
+   64 |    ptr->nombre[30] = nombre;
+      |                    ^
+exercises.c:65:17: error: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Werror=int-conversion]
+   65 |    ptr->rut[11] = rut;
+      |                 ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+9db1698
