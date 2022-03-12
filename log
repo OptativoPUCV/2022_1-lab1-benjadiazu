@@ -631,3 +631,13 @@ sá., 12 de mar. de 2022 19:35:47:
  tests:  2|5
 total_score: 20/70
 bb2fb96
+sá., 12 de mar. de 2022 19:40:03: 
+ exercises.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:
+exercises.c: In function 'crearPersona':
+exercises.c:64:16: error: assignment to expression with array type
+   64 |    ind->nombre = nombre;
+      |                ^
+Compilation failed
+3b95a53
