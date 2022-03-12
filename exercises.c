@@ -77,7 +77,8 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-   Vector* vectorLocal = (Vector*)calloc(n,sizeof(int));
+   Vector * vectorLocal = NULL;
+   vectorLocal = (Vector*)calloc(n,sizeof(int));
    return vectorLocal;
 }
 
