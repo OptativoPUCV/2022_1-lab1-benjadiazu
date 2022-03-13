@@ -123,7 +123,7 @@ void sumaV(Vector * a, Vector * b, Vector * c) {
    for (int i = 0 ; i < capacidad ; i++)
    {
       suma = obtenerValor(a,i) + obtenerValor(b,i);
-      c->datos[i] = suma;
+      asignarValor(c,i,suma);
    }
 }
 
