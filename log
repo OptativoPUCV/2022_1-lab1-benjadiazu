@@ -999,3 +999,8 @@ exercises.c:137:15: error: 'VectorUno[0].datos' is used uninitialized in this fu
 cc1.exe: all warnings being treated as errors
 Compilation failed
 0f8776e
+sá., 12 de mar. de 2022 21:18:20: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+4c49a4f
