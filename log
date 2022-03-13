@@ -1004,3 +1004,14 @@ sá., 12 de mar. de 2022 21:18:20:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 4c49a4f
+sá., 12 de mar. de 2022 21:19:37: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+test.c: In function 'sumaV2':
+exercises.c:137:15: error: 'vectorUno[0].datos' is used uninitialized in this function [-Werror=uninitialized]
+  137 |      vectorUno->datos[0] = a1;
+      |      ~~~~~~~~~^~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+ba7de5f
