@@ -988,3 +988,14 @@ exercises.c:136:13: error: unused variable 'VectorUno' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 7874079
+sá., 12 de mar. de 2022 21:15:20: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+test.c: In function 'sumaV2':
+exercises.c:137:15: error: 'VectorUno[0].datos' is used uninitialized in this function [-Werror=uninitialized]
+  137 |      VectorUno->datos[0] = a1;
+      |      ~~~~~~~~~^~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+0f8776e
