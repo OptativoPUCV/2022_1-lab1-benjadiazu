@@ -39,9 +39,8 @@ Utilice la función sumaN.
 void sumaNultimos(int a[], int n, int m, int * suma) {
    int sumaTotalArreglo;
    sumaTotalArreglo = sumaN(a,n);
-   int medio = n - m;
-   n = medio;
-   int sumaPrimerosM = sumaN(a,n);
+   int medio = *(a+n);
+   int sumaPrimerosM = sumaN(a,medio);
    *suma = sumaTotalArreglo - sumaPrimerosM;
 }
 
