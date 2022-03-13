@@ -918,3 +918,27 @@ exercises.c:136:11: error: unused variable 'vectorUno' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 5e422de
+sá., 12 de mar. de 2022 21:09:11: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function 'sumaV2':
+exercises.c:138:13: error: passing argument 1 of 'sumaV' from incompatible pointer type [-Werror=incompatible-pointer-types]
+  138 |       sumaV(vectorUno,vectorDos,c);
+      |             ^~~~~~~~~
+      |             |
+      |             int *
+exercises.c:119:21: note: expected 'Vector *' but argument is of type 'int *'
+  119 | void sumaV(Vector * a, Vector * b, Vector * c) {
+      |            ~~~~~~~~~^
+exercises.c:138:23: error: passing argument 2 of 'sumaV' from incompatible pointer type [-Werror=incompatible-pointer-types]
+  138 |       sumaV(vectorUno,vectorDos,c);
+      |                       ^~~~~~~~~
+      |                       |
+      |                       int *
+exercises.c:119:33: note: expected 'Vector *' but argument is of type 'int *'
+  119 | void sumaV(Vector * a, Vector * b, Vector * c) {
+      |                        ~~~~~~~~~^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+4479415
